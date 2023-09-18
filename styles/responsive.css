@@ -1,0 +1,33 @@
+@media screen and (min-width: 320px) and (max-width: 576px) {
+    /* ------------------- Header ---------------- */
+    header {
+        padding: 20px;
+    }
+    nav {
+        flex-direction: column;
+    }
+    .nav-right>ul{
+        flex-direction: column;
+    }
+    .banner-img >img{
+        width:100%;
+    }
+    /* ------------------- Main ---------------- */
+    /* ------------------- Footer ---------------- */
+}
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    /* ------------------- Header ---------------- */
+    header {
+        padding: 20px;
+    }
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .banner-img >img{
+        width:100%;
+    }
+    /* ------------------- Main ---------------- */
+    /* ------------------- Footer ---------------- */
+}
