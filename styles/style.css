@@ -227,4 +227,52 @@ main {
 }
 
 
+/* ------------------- facts ------------------- */
+.facts {
+    margin-left: 8rem;
+    margin-bottom: 11.25rem;
+}
+.facts-container-content>h1 {
+    color: #131313;
+    font-size: 2.8125rem;
+    font-weight: 700;
+    padding-bottom: 1.5rem;
+}
+.facts-container-content>p {
+    width: 33.875rem;
+    color: #131313;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    padding-bottom: 6.25rem;
+}
+.facts-container-boxlist {
+    margin-left: 3.125rem;
+    display: flex;
+    gap: 3.125rem;
+}
+.facts-container-box {
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.facts-container-box>h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #424242;
+    font-size: 2.8125rem;
+    font-weight: 43.75rem;
+}
+.facts-container-box>p{
+    color: #727272;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
 /* ------------------- Footer ---------------- */
