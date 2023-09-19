@@ -1,67 +1,150 @@
 @media screen and (min-width: 320px) and (max-width: 576px) {
+
     /* ------------------- Header ---------------- */
-    header,main {
+    header,
+    main {
         padding: 20px;
     }
+
     nav {
         flex-direction: column;
     }
-    .nav-right>ul{
+
+    .nav-right>ul {
         flex-direction: column;
     }
-    .banner-img >img{
-        width:100%;
+
+    .banner-img>img {
+        width: 100%;
     }
+
     /* ------------------- Main ---------------- */
 
-     /* feature-team-container */
-     .feature-team-container {
+    main{
+        padding: 0px;
+    }
+
+    /* feature-team-container */
+    .feature-team-container {
         flex-direction: column-reverse;
         gap: 10px;
-     }
-     .feature-team-content {
-         padding-left: 2rem;
-     }
-     .feature-team-img>img {
+    }
+
+    .feature-team-content {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .feature-team-img>img {
         width: 20rem;
         height: 20rem;
     }
-     .feature-team-img {
+
+    .feature-team-img {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 5px;
     }
-    .feature-team-content>h3{
+
+    .feature-team-content>h3 {
         width: auto;
     }
-    .feature-team-content>p{
+
+    .feature-team-content>p {
         width: auto;
+    }
+
+
+    /* ----------------- feature ---------------------- */
+    .feature {
+        flex-direction: column;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .feature-left>h1 {
+        width: auto;
+    }
+
+    .feature-left>p {
+        width: auto;
+    }
+
+    .feature-left>.card {
+        width: auto;
+    }
+
+    .feature-right>img {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .feature-right-img-block {
+        position: static;
+        margin: 10px auto;
     }
 
     /* ------------------- Footer ---------------- */
 }
 
 @media screen and (min-width: 576px) and (max-width: 960px) {
+
     /* ------------------- Header ---------------- */
     header {
         padding: 50px;
     }
+
     nav {
         flex-direction: column;
         gap: 20px;
     }
-    .banner-img >img{
-        width:100%;
+
+    .banner-img>img {
+        width: 100%;
     }
+
     /* ------------------- Main ---------------- */
-    
+
     /* feature-team-container */
     .feature-team-container {
-       flex-direction: column-reverse;
-       gap: 10px;
+        flex-direction: column-reverse;
+        gap: 10px;
     }
+
     .feature-team-content {
         padding-left: 2rem;
     }
+
+    /* ----------------- feature ---------------------- */
+    .feature {
+        flex-direction: column;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .feature-left>h1 {
+        width: auto;
+    }
+
+    .feature-left>p {
+        width: auto;
+    }
+
+    .feature-left>.card {
+        width: auto;
+    }
+
+    .feature-right>img {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .feature-right-img-block {
+        position: static;
+        margin: 10px auto;
+
+    }
+
+
     /* ------------------- Footer ---------------- */
 }

@@ -115,7 +115,7 @@ main {
     font-weight: 700;
 }
 
-.feature {
+.features {
     color: #FF900E;
     font-weight: 700;
 }
@@ -129,5 +129,102 @@ main {
     margin-top: 1.5rem;
     margin-bottom: 2rem;
 }
+
+
+/* feature */
+
+.feature-section {
+    margin-top: 10.5625rem;
+    margin-bottom: 175px;
+    background-color: #e8f48c;
+    height: auto;
+}
+
+.feature {
+    padding-top: 3.125rem;
+    margin-left: 15.625rem;
+    margin-right: 9.375rem;
+
+    display: flex;
+    justify-content: center;
+}
+
+.feature-left>h1 {
+    margin-top: 3.125rem;
+    border-left: 5px solid #FF900E;
+    padding-left: 1.3125rem;
+    width: 29.25rem;
+    color: #131313;
+    font-size: 2.8125rem;
+    font-weight: 700;
+}
+
+.feature-left>p {
+    width: 25rem;
+    color: black;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.625rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.875rem;
+
+}
+
+.feature-left>.card {
+    width: 25rem;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    margin-bottom: 20px;
+    padding: 1.875rem 42px 1.875rem 1.875rem;
+}
+
+.feature-left>.card>h4 {
+    color: #131313;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.feature-left>.card>p {
+    color: #727272;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.25rem;
+}
+
+.feature-right {
+    padding-top: 1.25rem;
+}
+
+.feature-right>img {
+    width: 100vh;
+    height: 90%;
+    margin-left: 3.75rem;
+}
+
+.feature-right-img-block {
+    background-color: #FF900E;
+    width: max-content;
+    height: max-content;
+    padding: 1.875rem;
+    border-radius: 5px;
+    position: relative;
+    margin-top: -4.6875rem;
+}
+
+.feature-right-img-block>h3 {
+    color: #FFF;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.feature-right-img-block>p {
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-align: center;
+}
+
 
 /* ------------------- Footer ---------------- */
