@@ -20,7 +20,7 @@
 
     /* ------------------- Main ---------------- */
 
-    main{
+    main {
         padding: 0px;
     }
 
@@ -91,12 +91,26 @@
         padding-left: 2rem;
         padding-right: 2rem;
     }
+
     .facts-container-content>p {
         width: auto;
     }
-    .facts-container-boxlist{
+
+    .facts-container-boxlist {
         flex-direction: column;
-   }
+    }
+
+
+    /* ------------------- sponspor ----------------- */
+    .sponspor-content {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .sponspor-logo {
+        flex-direction: column;
+    }
+
 
     /* ------------------- Footer ---------------- */
 }
@@ -166,13 +180,29 @@
         padding-left: 2rem;
         padding-right: 2rem;
     }
+
     .facts-container-content>p {
         width: auto;
     }
-    .facts-container-boxlist{
-        margin-left: 1rem; 
+
+    .facts-container-boxlist {
+        margin-left: 1rem;
         display: grid;
-         grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* ------------------- sponspor ----------------- */
+
+    .sponspor-content {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .sponspor-logo {
+        margin: 2rem;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
 
