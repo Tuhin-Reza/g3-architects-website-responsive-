@@ -232,12 +232,14 @@ main {
     margin-left: 8rem;
     margin-bottom: 11.25rem;
 }
+
 .facts-container-content>h1 {
     color: #131313;
     font-size: 2.8125rem;
     font-weight: 700;
     padding-bottom: 1.5rem;
 }
+
 .facts-container-content>p {
     width: 33.875rem;
     color: #131313;
@@ -246,11 +248,13 @@ main {
     line-height: 1.625rem;
     padding-bottom: 6.25rem;
 }
+
 .facts-container-boxlist {
     margin-left: 3.125rem;
     display: flex;
     gap: 3.125rem;
 }
+
 .facts-container-box {
     width: 12.5rem;
     height: 12.5rem;
@@ -262,14 +266,16 @@ main {
     justify-content: center;
     align-items: center;
 }
-.facts-container-box>h1{
+
+.facts-container-box>h1 {
     padding-top: 10px;
     padding-bottom: 10px;
     color: #424242;
     font-size: 2.8125rem;
     font-weight: 43.75rem;
 }
-.facts-container-box>p{
+
+.facts-container-box>p {
     color: #727272;
     font-size: 1.25rem;
     font-weight: 600;
@@ -277,36 +283,39 @@ main {
 
 
 /* ------------------- sponspor ----------------- */
-.sponspor{
+.sponspor {
     margin-bottom: 130px;
-
 }
-.sponspor-container{
 
-}
-.sponspor-content{
+.sponspor-container {}
+
+.sponspor-content {
     text-align: center;
     margin-bottom: 50px;
 }
-.sponspor-content>h1{
+
+.sponspor-content>h1 {
     color: #131313;
     font-size: 2.8rem;
     font-weight: 700;
     padding-bottom: 1.5rem;
 }
-.sponspor-content>p{
+
+.sponspor-content>p {
     color: #727272;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.6rem;
 }
-.sponspor-logo{
+
+.sponspor-logo {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 3rem;
 }
-.sponspor-logo>img{
+
+.sponspor-logo>img {
     width: 8.5rem;
     height: 3rem;
 }
@@ -314,3 +323,17 @@ main {
 
 
 /* ------------------- Footer ---------------- */
+.footer {
+    background-color: #FFF4E7;
+    padding: 2rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-bottom: 6rem;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.footer>p {
+    color: #424242;
+    font-size: 1rem;
+}
